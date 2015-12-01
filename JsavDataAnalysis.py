@@ -5,7 +5,7 @@ file_name = 'TraceSample.json'
 state = State()
 trace = Trace(file_name)
 
-tree_array = trace.run_tree_traversal('preorder')
-trace.print_array(tree_array, 'preorder')
+tree_array = trace.run_tree_traversal('postorder')
+trace.print_array(tree_array, 'postorder')
 
-state.plot_last_trace(tree_array)
+#state.plot_last_trace(tree_array)
