@@ -3,7 +3,7 @@ import simplejson
 import matplotlib.pyplot as plt
 
 class State(object):
-    """This class handles each state of the traces"""
+    """Handles each state of the traces"""
 
     def __init__(self):
         #print 'In the State class'

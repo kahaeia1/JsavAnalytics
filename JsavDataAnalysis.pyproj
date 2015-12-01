@@ -26,7 +26,10 @@
     <Compile Include="State.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Unit tests\TestTraces.py">
+    <Compile Include="TreeTrace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit tests\TestTreeTraces.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Trace.py">
