@@ -37,9 +37,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TraceSample.json" />
+    <Content Include="JsonSampleFiles\TreeTraceSample.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="JsonSampleFiles\" />
     <Folder Include="Unit tests\" />
   </ItemGroup>
   <PropertyGroup>

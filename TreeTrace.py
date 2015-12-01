@@ -8,13 +8,6 @@ class TreeTrace(Trace):
         self.file_name = file_name      
         super(TreeTrace, self).__init__(self.file_name)
 
-    def __testing__(self):
-        print "Hello"
-
-    def testing(self):
-        print "Hello"
-
-     #======================================================================================
     def preorder_traversal(self, node):        
         
         if node['v'] == '':
@@ -29,7 +22,6 @@ class TreeTrace(Trace):
         except IndexError as e:
             print '[Exception] in preorder traversal:\n' + e.message   
 
-    #======================================================================================
     def inorder_traversal(self, node):
         
         if node['v'] == '':

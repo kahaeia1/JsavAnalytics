@@ -1,7 +1,7 @@
 ﻿from State import State
 from TreeTrace import TreeTrace
 
-file_name = 'TraceSample.json'
+file_name = 'JsonSampleFiles/TreeTraceSample.json'
 state = State()
 treeTrace = TreeTrace(file_name)
 

@@ -10,7 +10,7 @@ class Trace(object):
         self.states = State().getStates(self.file_name)
 
     def print_states(self):
-        #print 'in print states'  
+        #print 'in print states'
         i = 0      
         for state in self.states['answer']:
             i += 1

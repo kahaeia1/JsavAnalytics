@@ -4,12 +4,12 @@ from State import State
 import numpy as np
 
 class TestTreeTraces(unittest.TestCase):
-    file_name = 'TraceSample.json'
+    file_name = 'JsonSampleFiles/TreeTraceSample.json'
     global tree_trace
     tree_trace = TreeTrace(file_name)
 
     def test_preorder_traversal_expected_result(self):
-        
+
         test_tree_arr = tree_trace.run_tree_traversal('preorder')
         np.testing.assert_array_equal(test_tree_arr[[len(tree_trace.states['answer'])-1][0]], [19, 36, 25, 34, 80, 53, 48, 60, 96, 81])      
 
